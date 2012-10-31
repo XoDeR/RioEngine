@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libCocosDenshion", "CocosDenshion\proj.win32\CocosDenshion.win32.vcproj", "{F8EDD7FA-9A51-4E80-BAEB-860825D2EAC6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libcocos2d", "cocos2dx\proj.win32\cocos2d-win32.vcproj", "{98A51BA8-FC3A-415B-AC8F-8C7BD464E93E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tests", "tests\test.win32\test.win32.vcproj", "{76A39BB2-9B84-4C65-98A5-654D86B86F2A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{98A51BA8-FC3A-415B-AC8F-8C7BD464E93E} = {98A51BA8-FC3A-415B-AC8F-8C7BD464E93E}
+		{F8EDD7FA-9A51-4E80-BAEB-860825D2EAC6} = {F8EDD7FA-9A51-4E80-BAEB-860825D2EAC6}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TD.win32", "TD\TD.win32.vcproj", "{E8E6F450-52E6-43C6-BC3B-0AE093ABCE38}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ComponentCommunicator.win32", "ComponentCommunicator\ComponentCommunicator.win32.vcproj", "{28E0EC01-8CC3-4CBD-88E6-BD38B708506E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8EDD7FA-9A51-4E80-BAEB-860825D2EAC6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F8EDD7FA-9A51-4E80-BAEB-860825D2EAC6}.Debug|Win32.Build.0 = Debug|Win32
+		{F8EDD7FA-9A51-4E80-BAEB-860825D2EAC6}.Release|Win32.ActiveCfg = Release|Win32
+		{F8EDD7FA-9A51-4E80-BAEB-860825D2EAC6}.Release|Win32.Build.0 = Release|Win32
+		{98A51BA8-FC3A-415B-AC8F-8C7BD464E93E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{98A51BA8-FC3A-415B-AC8F-8C7BD464E93E}.Debug|Win32.Build.0 = Debug|Win32
+		{98A51BA8-FC3A-415B-AC8F-8C7BD464E93E}.Release|Win32.ActiveCfg = Release|Win32
+		{98A51BA8-FC3A-415B-AC8F-8C7BD464E93E}.Release|Win32.Build.0 = Release|Win32
+		{76A39BB2-9B84-4C65-98A5-654D86B86F2A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{76A39BB2-9B84-4C65-98A5-654D86B86F2A}.Debug|Win32.Build.0 = Debug|Win32
+		{76A39BB2-9B84-4C65-98A5-654D86B86F2A}.Release|Win32.ActiveCfg = Release|Win32
+		{76A39BB2-9B84-4C65-98A5-654D86B86F2A}.Release|Win32.Build.0 = Release|Win32
+		{E8E6F450-52E6-43C6-BC3B-0AE093ABCE38}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E8E6F450-52E6-43C6-BC3B-0AE093ABCE38}.Debug|Win32.Build.0 = Debug|Win32
+		{E8E6F450-52E6-43C6-BC3B-0AE093ABCE38}.Release|Win32.ActiveCfg = Release|Win32
+		{E8E6F450-52E6-43C6-BC3B-0AE093ABCE38}.Release|Win32.Build.0 = Release|Win32
+		{28E0EC01-8CC3-4CBD-88E6-BD38B708506E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{28E0EC01-8CC3-4CBD-88E6-BD38B708506E}.Debug|Win32.Build.0 = Debug|Win32
+		{28E0EC01-8CC3-4CBD-88E6-BD38B708506E}.Release|Win32.ActiveCfg = Release|Win32
+		{28E0EC01-8CC3-4CBD-88E6-BD38B708506E}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
